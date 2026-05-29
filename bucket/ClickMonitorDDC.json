@@ -6,14 +6,14 @@
     "license": "Freeware",
     "url": "https://github.com/iaredavid01/ClickMonitorDDC/raw/ClickMonitorDDC_7_2.zip",
     "hash": "13aad46478bd8b57f411399aa6d07b74304650bb536cf470a722c6de1ddf5e61",
-    "bin": "ClickMonitorDDC.exe",
+    "bin": "ClickMonitorDDC_7_2.exe",
     "persist": "ClickMonitorDDC.xml",
     "post_install":[
         "New-Service -Name 'ClickMonitorDDC' -BinaryPathName '$dir\\ClickMonitorDDC_7_2.exe'"
     ],
     "shortcuts": [
         [
-            "ClickMonitorDDC.exe",
+            "ClickMonitorDDC_7_2.exe",
             "ClickMonitorDDC"
         ]
     ]
