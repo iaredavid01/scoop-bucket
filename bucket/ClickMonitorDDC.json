@@ -4,7 +4,7 @@
     "description": "ClickMonitorDDC, Windows taskbar monitor controls",
     "notes": "originally by mapini@freenet.de at https://clickmonitorddc.bplaced.net/ (Martin Krämer?)",
     "license": "Freeware",
-    "url": "https://github.com/iaredavid01/ClickMonitorDDC/raw/refs/heads/main/ClickMonitorDDC_7_2.zip",
+    "url": "https://github.com/iaredavid01/ClickMonitorDDC/raw/ClickMonitorDDC_7_2.zip",
     "hash": "13aad46478bd8b57f411399aa6d07b74304650bb536cf470a722c6de1ddf5e61",
     "bin": "ClickMonitorDDC.exe",
     "persist": "ClickMonitorDDC.xml",
