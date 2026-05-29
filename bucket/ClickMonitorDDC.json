@@ -9,7 +9,7 @@
     "bin": "ClickMonitorDDC_7_2.exe",
     "persist": "ClickMonitorDDC.xml",
     "post_install":[
-        "New-Service -Name 'ClickMonitorDDC' -BinaryPathName '$dir\\ClickMonitorDDC_7_2.exe'"
+        "Start-Process sc.exe -Verb runAs -ArgumentList 'create', 'ClickMonitorDDC', 'binpath=', '$dir\\ClickMonitorDDC_7_2.exe'"
     ],
     "shortcuts": [
         [
